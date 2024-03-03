@@ -14,6 +14,9 @@ const users = {};
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/views/chat.html');
 });
+app.get('/homepage.html', (req, res) => {
+    res.sendFile(__dirname + '/views/homepage.html');
+});
 
 let temp = "";
 let conn_count = 0;

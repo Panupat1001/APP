@@ -31,43 +31,11 @@
       rel="stylesheet"
       href="AdminLTE/plugins/summernote/summernote-bs4.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="AdminLTE/dist/css/slotcss.css"
+    />
   </head>
-
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    #chat-container {
-      min-width: 800px;
-      margin: auto;
-    }
-
-    #messages {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    #messages li {
-      margin-bottom: 8px;
-    }
-
-    #typing-indicator {
-      color: #888;
-      font-size: 70%;
-    }
-    .slotimg{
-      height: 50px;
-      width: 50px;
-      position: relative;
-      left: 325px;
-    }
-  </style>
 
   <body>
     <div id="chat-container" style="padding-top: 30px">
@@ -83,30 +51,9 @@
                 src="AdminLTE/dist/img/slot.png"
                 alt="Message User Image"
               />
-              <div class="card-tools">
-                <span title="3 New Messages" class="badge bg-primary">3</span>
-                <button
-                  type="button"
-                  class="btn btn-tool"
-                  data-card-widget="collapse"
-                >
-                  <i class="fas fa-minus"></i>
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-tool"
-                  title="Contacts"
-                  data-widget="chat-pane-toggle"
-                >
-                  <i class="fas fa-comments"></i>
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-tool"
-                  data-card-widget="remove"
-                >
-                  <i class="fas fa-times"></i>
-                </button>
+              <a href="homepage.html">
+                <img class="homeicon" src="AdminLTE/dist/img/homeicon.png" >
+              </a>
               </div>
             </div>
             <div class="card-body">
