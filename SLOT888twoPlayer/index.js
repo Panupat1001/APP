@@ -1,3 +1,4 @@
+// HOW TO USE พิมพ์ใน terminal node index.js
 const express = require('express');
 const app = express();
 const http = require('http');
@@ -16,6 +17,7 @@ io.on('connection', (socket) => {
   });
 });
 
+// HOW TO USE พิมพ์ใน terminal node index.js
 // io.on('connection', (socket) => {
 //   console.log('a user connected');
 //   io.on('connection', (socket) => {
@@ -30,5 +32,5 @@ io.on('connection', (socket) => {
 // });
 
 server.listen(5000, () => {
-  console.log('listening on *:5000');
+  console.log('เชื่อมต่อละไอสัสที่ port:5000');
 });
