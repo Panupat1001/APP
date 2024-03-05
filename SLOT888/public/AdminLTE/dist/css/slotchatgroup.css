@@ -25,17 +25,28 @@ body {
     color: #6d6d6d;
     font-size: 70%;
   }
+  nav{
+  
+
+  }
   .slotimg{
     height: 50px;
     width: auto;
     position: relative;
-    left: 20em;
+    margin: 5px 0 5px 14rem;
+
   }
+  .groupName{
+    position: relative;
+    left: 2rem;
+    top: 5px;
+  }
+
   .homeicon{
     height: 35px;
     width: auto;
     position: relative;
-    left: -3.5em;
+    left: 0.5rem;
   }
   .card-primary.card-outline {
     border-top: 3px solid #a07060;
@@ -68,7 +79,9 @@ body {
   .right .direct-chat-img {
     float: right;
   }
-
+.user-messagedirect-chat-msgright{
+  
+}
 .direct-chat-text {
     border-radius: 0.3rem;
     background-color: #ffffff;
@@ -77,6 +90,9 @@ body {
     margin: 5px 0 0 50px;
     padding: 5px 10px;
     position: relative;
+    text-align: right;
+    border-width: initial;
+
   }
 
   
