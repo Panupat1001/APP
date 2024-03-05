@@ -173,8 +173,10 @@ input:focus {
 }
 
 .join-main {
-   padding: 30px 40px;
+   padding: 25px 40px 60px 40px;
    background: #ffffff;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
 }
 
 
@@ -209,6 +211,15 @@ input:focus {
    background: #DBDBDB;
    width: 100%;
 }
+.join-main input[type='email'] {
+   font-size: 16px;
+   padding: 20px;
+   height: 40px;
+   border-radius: 50px;
+   border: none;
+   background: #DBDBDB;
+   width: 100%;
+}
 
 .join-main select {
    font-size: 16px;
@@ -226,7 +237,7 @@ input:focus {
    width: 30%;
    padding: 10px;
    border: none;
-   border-radius: 5px;
+   border-radius: 50px;
    color: #ffffff;
    background: #A37463;
    display: block;
