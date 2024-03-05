@@ -12,41 +12,23 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
-   font-size:20px;
-   font-family: "Madimi One", sans-serif;
-   font-weight: 400;
-   font-style: normal;
 }
-
-.login {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-size:70px;
-   font-family: "Madimi One", sans-serif;
-   color: #A37463;
-   font-weight: 400;
-   font-style: normal;
-}
-
-.findacc {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-size:50px;
-   font-family: "Madimi One", sans-serif;
-   color: #A37463;
-   font-weight: 400;
-   font-style: normal;
-}
-
+.signup {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size:70px;
+    font-family: "Madimi One", sans-serif;
+    color: #A37463;
+    font-weight: 400;
+    font-style: normal;
+ }
 body {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
    background: #A37463;
    margin: 20px;
 }
-
 
 ul {
    list-style: none;
@@ -200,7 +182,7 @@ input:focus {
 }
 
 .join-main {
-   padding: 30px 40px;
+   padding: 25px 40px 60px 40px;
    background: #ffffff;
    border-bottom-left-radius: 5px;
    border-bottom-right-radius: 5px;
@@ -228,18 +210,27 @@ input:focus {
    border: none;
    background: #DBDBDB;
    width: 100%;
+   font-family: "Madimi One", sans-serif;
 }
 .join-main input[type='password'] {
-   font-size: 16px;
-   padding: 20px;
+   font-size: 25px;
+   padding: 40px;
    height: 40px;
    border-radius: 50px;
    border: none;
    background: #DBDBDB;
    width: 100%;
    font-family: "Madimi One", sans-serif;
-   font-weight: 400;
-   font-style: normal;
+}
+.join-main input[type='email'] {
+   font-size: 25px;
+   padding: 40px;
+   height: 40px;
+   border-radius: 50px;
+   border: none;
+   background: #DBDBDB;
+   width: 100%;
+   font-family: "Madimi One", sans-serif;
 }
 
 .join-main select {
