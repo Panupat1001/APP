@@ -17,7 +17,7 @@
 body {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
-   background: #1b1b32;
+   background: #A37463;
    margin: 20px;
 }
 
@@ -34,8 +34,19 @@ a {
    padding: 5px 15px;
    border: none;
    border-radius: 5px;
-   background: #b1d8eb;
+   background: #00a1f1;
    color: #3f5163;
+   border: none;
+   font-size: 17px;
+}
+
+.box {
+   cursor: pointer;
+   padding: 5px 15px;
+   border: none;
+   border-radius: 5px;
+   background: #ff00bf;
+   color: #067aee;
    border: none;
    font-size: 17px;
 }
@@ -156,14 +167,14 @@ input:focus {
 .join-header {
    text-align: center;
    padding: 20px;
-   background: #3b3b4f;
+   background: #ffffff;
    border-top-left-radius: 5px;
    border-top-right-radius: 5px;
 }
 
 .join-main {
    padding: 30px 40px;
-   background: #323244;
+   background: #ffffff;
 }
 
 .join-main p {
@@ -185,7 +196,7 @@ input:focus {
    height: 40px;
    border-radius: 5px;
    border: none;
-   background: #d9edf7;
+   background: #DBDBDB;
    width: 100%;
 }
 
@@ -197,7 +208,7 @@ input:focus {
    border: none;
    border-radius: 5px;
    color: #757575;
-   background: #d9edf7;
+   background: #f7d9d9;
 }
 
 .join-main .btn {
@@ -206,8 +217,10 @@ input:focus {
    padding: 10px;
    border: none;
    border-radius: 5px;
-   color: #34495e;
-   background: #b1d8eb;
+   color: #ffffff;
+   background: #A37463;
+   display: block;
+   margin: auto;
 }
 
 @media (max-width: 700px) {
