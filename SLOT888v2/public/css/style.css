@@ -29,6 +29,17 @@
    font-style: normal;
 }
 
+.findacc {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size:50px;
+   font-family: "Madimi One", sans-serif;
+   color: #A37463;
+   font-weight: 400;
+   font-style: normal;
+}
+
 body {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
