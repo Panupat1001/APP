@@ -117,7 +117,7 @@ a {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   border: solid 3px #000000;
+   border: solid 1px #000000;
 }
 
 .chat-main {
@@ -130,7 +130,7 @@ a {
    color: #fff;
    padding: 20px 20px 60px;
    overflow-y: scroll;
-   border: solid 3px #000000;
+   border: solid 1px #000000;
 }
 
 .chat-sidebar h2 {
@@ -157,7 +157,7 @@ a {
    overflow-y: scroll;
    background: #ffffff;
    min-height: 68vh;
-   border: solid 3px #000000;
+   border: solid 1px #000000;
 }
 
 .chat-messages .message {
@@ -166,7 +166,7 @@ a {
    background-color: #ffffff;
    border-radius: 55px;
    overflow-wrap: break-word;
-   border: solid 3px #A07060;
+   border: solid 1px #A07060;
 }
 
 .chat-messages .message .meta {
@@ -185,7 +185,7 @@ a {
    padding: 20px 30px;
    background-color: #ffffff;
    border-radius: 0 0 5px 5px;
-   border: solid 3px #000000;
+   border: solid 1px #000000;
 }
 
 textarea:focus,
@@ -201,7 +201,7 @@ input:focus {
    width: 95%;
    background: #DBDBDB;
    border-radius: 18px;
-   border: solid 3px #A07060;
+   border: solid 1px #A07060;
 }
 
 /* Join Page */
