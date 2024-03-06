@@ -19,7 +19,6 @@ const io = socketIo(server);
 app.use(express.static(path.join(__dirname, 'public')));
 
 const botName = 'XeroxChat Bot';
-
 // run when client connects
 io.on('connection', (socket) => {
    socket.on('joinRoom', ({ username, room }) => {

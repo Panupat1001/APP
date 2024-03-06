@@ -29,6 +29,17 @@
    font-style: normal;
 }
 
+.slotchat {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size:40px;
+   font-family: "Madimi One", sans-serif;
+   color: #000000;
+   font-weight: 100;
+   font-style: normal;
+}
+
 .findacc {
    box-sizing: border-box;
    margin: 0;
@@ -97,8 +108,8 @@ a {
 }
 
 .chat-header {
-   background: #3b3b4f;
-   color: #fff;
+   background: #ffffff;
+   color: #000000;
    /* border-top-left-radius: 5px;
    border-top-right-radius: 5px; */
    padding: 15px;
@@ -106,6 +117,7 @@ a {
    display: flex;
    align-items: center;
    justify-content: space-between;
+   border: solid 3px #000000;
 }
 
 .chat-main {
@@ -114,14 +126,16 @@ a {
 }
 
 .chat-sidebar {
-   background: #323244;
+   background: #ffffff;
    color: #fff;
    padding: 20px 20px 60px;
    overflow-y: scroll;
+   border: solid 3px #000000;
 }
 
 .chat-sidebar h2 {
    font-size: 20px;
+   color: #000000;
    background: rgba(0, 0, 0, 0.1);
    padding: 10px;
    margin-bottom: 20px;
@@ -129,26 +143,30 @@ a {
 
 .chat-sidebar h3 {
    margin-bottom: 15px;
+   color: #000000;
 }
 
 .chat-sidebar ul li {
    padding: 10px 0;
+   color: #000000;
 }
 
 .chat-messages {
    padding: 30px;
    max-height: 500px;
    overflow-y: scroll;
-   background: #34495e;
+   background: #ffffff;
    min-height: 68vh;
+   border: solid 3px #000000;
 }
 
 .chat-messages .message {
    padding: 10px;
    margin-bottom: 15px;
-   background-color: #aac0c1;
-   border-radius: 5px;
+   background-color: #ffffff;
+   border-radius: 55px;
    overflow-wrap: break-word;
+   border: solid 3px #A07060;
 }
 
 .chat-messages .message .meta {
@@ -165,8 +183,9 @@ a {
 
 .chat-form-container {
    padding: 20px 30px;
-   background-color: #3b3b4f;
+   background-color: #ffffff;
    border-radius: 0 0 5px 5px;
+   border: solid 3px #000000;
 }
 
 textarea:focus,
@@ -179,9 +198,10 @@ input:focus {
    padding: 0px 20px;
    border: none;
    height: 40px;
-   width: 86%;
-   background: #d9edf7;
+   width: 95%;
+   background: #DBDBDB;
    border-radius: 18px;
+   border: solid 3px #A07060;
 }
 
 /* Join Page */
@@ -298,15 +318,15 @@ input:focus {
 
 .send-button {
    cursor: pointer;
-   padding: 10px 30px;
+   padding: 12px 12px;
    border: none;
    border-radius: 5px;
-   background: #b1d8eb;
-   color: #3f5163;
+   background: #A07060;
+   color: #ffffff;
    border: none;
-   border-radius: 25px;
-   font-size: 17px;
-   margin-left: 20px;
+   border-radius: 50px;
+   font-size: 10px;
+
 }
 
 @media only screen and (max-width: 464px) {
