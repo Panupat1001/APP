@@ -209,12 +209,19 @@ input:focus {
    padding: 0px 20px;
    border: none;
    height: 40px;
-   width: 95%;
+   width: 85%;
    background: #DBDBDB;
    border-radius: 18px;
    border: solid 1px #A07060;
+   margin: 0px 15px 0px 15px;
 }
+.plusbtn{
+   height: 20px;
+   width: auto;
+   top: 15px;
+   margin: 0px 10px -5px 20px;
 
+}
 /* Join Page */
 .join-container {
    max-width: 500px;
@@ -315,11 +322,6 @@ input:focus {
    }
 }
 
-@media only screen and (max-width: 1138px) {
-   .chat-form-container input[type='text'] {
-      width: 60%;
-   }
-}
 
 @media only screen and (max-width: 464px) {
    .chat-form-container input[type='text'] {
