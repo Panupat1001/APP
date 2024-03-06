@@ -267,7 +267,9 @@ input:focus {
    background: #DBDBDB;
    width: 100%;
 }
+
 .join-main input[type='password'] {
+   
    font-size: 25px;
    padding: 40px;
    height: 40px;
