@@ -56,7 +56,7 @@ function outputMessage(message) {
 }
 
 // add room name to DOM
-function outputRoomName(room=('แวร์วูฟรอวันหอน')) {
+function outputRoomName(room) {
    roomName.innerHTML = room;
 }
 
