@@ -70,13 +70,13 @@ socket.on('chatMessage', ( { message, socketId } ) => {
                                         <span class="direct-chat-name float-left">${ socketId }</span>
                                         <span class="direct-chat-timestamp float-right">${ getCurrentDateTime() }</span>
                                     </div>
-                                    <img class="direct-chat-img" src="AdminLTE/dist/img/slot.png" alt="Message User Image">
+                                    <img class="direct-chat-img" src="AdminLTE/dist/img/user1-128x128.jpg" alt="Message User Image">
                                     <div class="direct-chat-text">
                                         ${ (message) }
                                     </div>                                
                                 </div>`;
         
-        messagesList.appendChild(listItem);
+        // messagesList.appendChild(listItem);
     }
     
     typingIndicator.innerHTML = ''; // Clear typing indicators when a new message is received
