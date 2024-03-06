@@ -1,7 +1,8 @@
 const chatForm = document.getElementById('chat-form');
 const chatMessages = document.querySelector('.chat-messages');
-const roomName = document.getElementById('room-name');
+const roomName = document.getElementById('rooms');
 const userList = document.getElementById('users');
+
 
 // get username and room from URl
 const { username, room } = Qs.parse(location.search, {
@@ -56,12 +57,13 @@ function outputMessage(message) {
 }
 
 // add room name to DOM
-function outputRoomName(room=('แวร์วูฟรอวันหอน')) {
+function outputRoomName(room='Chat with friends') {
    roomName.innerHTML = room;
+   
 }
 
 // add users to DOM
-function outputUsers(users=username) {
+function outputUsers(users=user) {
    userList.innerHTML = `
       ${users.map((user) => `<li>${user.username}</li>`).join('')}
    `;
