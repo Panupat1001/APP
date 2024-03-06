@@ -21,10 +21,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 const botName = 'SlotChat Bot';
 // run when client connects
 io.on('connection', (socket) => {
-   socket.on('joinRoom', ({ username, room }) => {
+   socket.on('joinRoom', ({ username ,room}) => {
       const user = userJoin(socket.id, username, room);
-
       socket.join(user.room);
+      console.log(`User connected: ${socket.id}`);
+      console.log(`User connected: ${username}`);
+      console.log(`User connected: ${room}`);
 
       // welcome current user
       socket.emit('message', formatMessage(botName, 'Welcome to Slot888'));
@@ -42,6 +44,8 @@ io.on('connection', (socket) => {
          room: user.room,
          users: getRoomUsers(user.room),
       });
+
+      
    });
 
    // listen for chatMessage
